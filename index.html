@@ -11,7 +11,7 @@
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /><!--bootstrap social seems be predicated on font awesome, since it doesn't render if placed before aforementioned tag-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Nucamp testing site</title>
@@ -35,6 +35,7 @@
         </div>
     </header> <!--end header-->
 
+    <!--Since modals use fixed position, it is recommended to place them closer to root-->
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
