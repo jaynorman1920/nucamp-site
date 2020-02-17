@@ -11,4 +11,9 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+
+    $(`#reserveModalButton, #closeReserveModal, 
+       #loginModalButton, #closeLoginModal`).click(function() {
+       $('#reserveModal').modal('toggle');
+    });
 });
